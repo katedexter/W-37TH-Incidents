@@ -1,10 +1,11 @@
   $(document).ready(function() {
 
     $("#getMessage").on("click", function() {
+      // My API call to get the data for a particular block in Baltimore
       $.getJSON("https://data.baltimorecity.gov/resource/m8g9-abgb.json?incidentlocation=1400 W 37TH ST&$order=calldatetime DESC", function(json) {
 
         var html = "";
-        // Only change code below this line.
+        
                 
   json.forEach(function(val) {
   var keys = Object.keys(val);
@@ -15,7 +16,7 @@
   html += "</div><br>";
 });
         
-        // Only change code above this line.
+        // Display the JSON results
 
         $(".message").html(html);
 
