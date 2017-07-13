@@ -1,0 +1,18 @@
+
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+  color: black;
+}
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+
+.full {
+  background: url("http://whitehallmillbaltimore.com/wp-content/uploads/2014/06/Historic_062916_a.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
