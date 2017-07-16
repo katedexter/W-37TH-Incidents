@@ -1,4 +1,10 @@
-
+h2 {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 50px;
+}
+button {
+ margin: 4px;
+}
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -7,7 +13,7 @@ body {
 }
 .well {
    background-color: rgba(245, 245, 245, 0.4);
-}
+ }
 
 .full {
   background: url("http://whitehallmillbaltimore.com/wp-content/uploads/2014/06/Historic_062916_a.png") no-repeat center center fixed; 
@@ -15,4 +21,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.custom {  /*Keeps all buttons      same width*/
+    width: 200px !important;
 }
